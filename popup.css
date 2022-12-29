@@ -1,3 +1,7 @@
+:root {
+  --title-font: Arial, Helvetica, sans-serif;
+}
+
 body {
     width: 20rem;
   }
@@ -21,4 +25,5 @@ body {
   h3,
   p {
     margin: 0;
+    font-family: var(--title-font);
   }
